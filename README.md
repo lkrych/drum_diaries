@@ -6,18 +6,20 @@ A simple practice archive for drum exercises, grooves, and notes.
 
 | Practice Set | Producer | Date Practiced | Difficulty |
 | --- | --- | --- | --- |
+| [Song Groove Practice](videos/song-groove-practice-2026-06-23.md) | Practice room whiteboard | 2026-06-23 | Medium |
 | [10 Beginner Beats To Get You Playing Quickly!](videos/10-beginner-beats-rob-brown.md) | Rob Brown | 2026-06-18 | Easy |
 
-## Exercise Template
+## Exercise Templates
 
-Use the template in `templates/exercise.md` for each kick variation.
+Use the template in `templates/exercise.md` as a starting point for each exercise page.
 
 ## Notation Shorthand
 
 - `HH`: hi-hat
 - `S`: snare
 - `K`: kick
-- Count grid: `1 & 2 & 3 & 4 &`
+- Eighth-note count grid: `1 & 2 & 3 & 4 &`
+- Sixteenth-note count grid: `1 e & a 2 e & a 3 e & a 4 e & a`
 
 Example:
 
