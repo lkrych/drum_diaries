@@ -35,5 +35,6 @@ Medium
 
 Files:
 
+- [Play in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/song-grooves/the-hours.wav&title=The%20Hours)
 - [Download WAV](../../audio/song-grooves/the-hours.wav)
 - [MIDI file](../../midi/song-grooves/the-hours.mid)

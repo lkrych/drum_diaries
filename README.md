@@ -13,6 +13,10 @@ A simple practice archive for drum exercises, grooves, and notes.
 
 Use the template in `templates/exercise.md` as a starting point for each exercise page.
 
+## Audio Playback
+
+GitHub's repository Markdown view may not show embedded audio controls. Use each exercise's `Play in browser` link for an HTML audio player, or use the direct WAV link to download the sample.
+
 ## Notation Shorthand
 
 - `HH`: hi-hat

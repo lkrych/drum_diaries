@@ -34,6 +34,6 @@ Easy
 
 Files:
 
+- [Play in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/path/example.wav&title=Exercise%20Title)
 - [Download WAV]()
 - [MIDI file]()
-

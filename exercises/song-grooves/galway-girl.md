@@ -35,5 +35,6 @@ Medium
 
 Files:
 
+- [Play in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/song-grooves/galway-girl.wav&title=Galway%20Girl)
 - [Download WAV](../../audio/song-grooves/galway-girl.wav)
 - [MIDI file](../../midi/song-grooves/galway-girl.mid)
