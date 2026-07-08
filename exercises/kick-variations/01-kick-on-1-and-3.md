@@ -34,6 +34,6 @@ Easy
 
 Files:
 
+- [Play in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/kick-variations/01-kick-on-1-and-3.wav&title=Kick%20on%201%20and%203)
 - [Download WAV](../../audio/kick-variations/01-kick-on-1-and-3.wav)
 - [MIDI file](../../midi/kick-variations/01-kick-on-1-and-3.mid)
-

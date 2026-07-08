@@ -35,5 +35,6 @@ Medium
 
 Files:
 
+- [Play in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/song-grooves/thunder.wav&title=Thunder)
 - [Download WAV](../../audio/song-grooves/thunder.wav)
 - [MIDI file](../../midi/song-grooves/thunder.mid)

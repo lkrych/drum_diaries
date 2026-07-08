@@ -34,5 +34,6 @@ Difficult
 
 Files:
 
+- [Play in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/kick-variations/07-kick-on-1-and-2-and.wav&title=Kick%20on%20the%20%26%20of%201%20and%20the%20%26%20of%202)
 - [Download WAV](../../audio/kick-variations/07-kick-on-1-and-2-and.wav)
 - [MIDI file](../../midi/kick-variations/07-kick-on-1-and-2-and.mid)

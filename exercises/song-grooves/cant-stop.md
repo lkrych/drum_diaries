@@ -50,7 +50,9 @@ Chorus:
 
 Files:
 
+- [Play verse in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/song-grooves/cant-stop-verse.wav&title=Can%27t%20Stop%20-%20Verse)
 - [Verse WAV](../../audio/song-grooves/cant-stop-verse.wav)
 - [Verse MIDI](../../midi/song-grooves/cant-stop-verse.mid)
+- [Play chorus in browser](https://lkrych.github.io/drum_diaries/listen.html?audio=audio/song-grooves/cant-stop-chorus.wav&title=Can%27t%20Stop%20-%20Chorus)
 - [Chorus WAV](../../audio/song-grooves/cant-stop-chorus.wav)
 - [Chorus MIDI](../../midi/song-grooves/cant-stop-chorus.mid)
