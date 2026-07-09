@@ -15,12 +15,7 @@ Shared groove:
 - Snare: beats 2 and 4
 - Kick:
 
-```text
-Count: 1 & 2 & 3 & 4 &
-HH:    x x x x x x x x
-S:         o       o
-K:
-```
+![Drum notation for Exercise Title](../../notation/path/example.svg)
 
 ## Difficulty
 

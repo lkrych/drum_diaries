@@ -13,22 +13,17 @@ Time: 4/4
 Practice groove:
 
 - Hi-hat: straight eighth notes
+- Chorus cymbals: crashes on beat 1 and the & of 2
 - Snare: backbeat plus 16th-note placements
 - Kick: 16th-note placements under the backbeat
 
-```text
 Verse
-Count: 1 e & a 2 e & a 3 e & a 4 e & a
-HH:    x . x . x . x . x . x . x . x .
-S:     . . . . o . . o . o . . o . . o
-K:     o . o . . . . . . . o . . . . .
+
+![Drum notation for Can't Stop verse](../../notation/song-grooves/cant-stop-verse.svg)
 
 Chorus
-Count: 1 e & a 2 e & a 3 e & a 4 e & a
-HH:    O . x . x . O . x . x . x . x .
-S:     . . . . o . . . . . . . o . . .
-K:     o . . o . . o . . . o . . . . .
-```
+
+![Drum notation for Can't Stop chorus](../../notation/song-grooves/cant-stop-chorus.svg)
 
 ## Difficulty
 

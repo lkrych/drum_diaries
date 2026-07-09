@@ -15,12 +15,7 @@ Shared groove:
 - Snare: beats 2 and 4
 - Kick: beats 1, 3, and the & of 3
 
-```text
-Count: 1 & 2 & 3 & 4 &
-HH:    x x x x x x x x
-S:         o       o
-K:     o       o o
-```
+![Drum notation for kick on 1, 3, and the & of 3](../../notation/kick-variations/02-kick-on-1-3-and-3-and.svg)
 
 ## Difficulty
 

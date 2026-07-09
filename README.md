@@ -17,19 +17,16 @@ Use the template in `templates/exercise.md` as a starting point for each exercis
 
 GitHub's repository Markdown view may not show embedded audio controls. Use each exercise's `Play in browser` link for an HTML audio player, or use the direct WAV link to download the sample.
 
-## Notation Shorthand
+## Notation
 
-- `HH`: hi-hat
+Exercise pages use SVG drum notation instead of text count grids. Generate notation with `tools/generate_notation_svg.py`, then embed the SVG in the exercise page.
+
+- `C`: crash, shown with an x notehead above the hi-hat
+- `HH`: hi-hat, shown with an x notehead above the staff
+- `OH`: open hi-hat, shown with a circled x notehead
 - `S`: snare
 - `K`: kick
-- Eighth-note count grid: `1 & 2 & 3 & 4 &`
-- Sixteenth-note count grid: `1 e & a 2 e & a 3 e & a 4 e & a`
 
 Example:
 
-```text
-Count: 1 & 2 & 3 & 4 &
-HH:    x x x x x x x x
-S:         o       o
-K:    o       o
-```
+![Drum notation example](notation/kick-variations/01-kick-on-1-and-3.svg)

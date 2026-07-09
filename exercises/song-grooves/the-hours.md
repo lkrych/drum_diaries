@@ -16,12 +16,7 @@ Practice groove:
 - Snare: beat 2, the a of 2, and beat 4
 - Kick: beat 1, the & of 1, beat 3, and the & of 3
 
-```text
-Count: 1 e & a 2 e & a 3 e & a 4 e & a
-HH:    x . x . x . x . x . x . x . x .
-S:     . . . . o . . o . . . . o . . .
-K:     o . o . . . . . o . o . . . . .
-```
+![Drum notation for The Hours](../../notation/song-grooves/the-hours.svg)
 
 ## Difficulty
 
