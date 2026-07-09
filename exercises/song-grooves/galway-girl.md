@@ -16,12 +16,7 @@ Practice groove:
 - Snare: beats 2 and 4
 - Kick: beat 1, the a of 1, the & of 2, and the & of 3
 
-```text
-Count: 1 e & a 2 e & a 3 e & a 4 e & a
-HH:    x . x . x . x . x . x . x . x .
-S:     . . . . o . . . . . . . o . . .
-K:     o . . o . . o . . . o . . . . .
-```
+![Drum notation for Galway Girl](../../notation/song-grooves/galway-girl.svg)
 
 ## Difficulty
 

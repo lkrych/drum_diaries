@@ -4,7 +4,7 @@ Guidance for coding agents working in this repository.
 
 ## Project Purpose
 
-This repo is a drum practice archive. Each practice video gets a summary page, and each exercise gets its own Markdown page with a simple count-grid pattern plus playable audio.
+This repo is a drum practice archive. Each practice video gets a summary page, and each exercise gets its own Markdown page with SVG drum notation plus playable audio.
 
 ## Repository Structure
 
@@ -13,6 +13,7 @@ This repo is a drum practice archive. Each practice video gets a summary page, a
 - `exercises/`: individual exercise pages.
 - `audio/`: generated WAV samples.
 - `midi/`: generated MIDI files.
+- `notation/`: generated SVG drum notation.
 - `templates/`: reusable Markdown templates.
 - `tools/`: local generation scripts.
 
@@ -39,7 +40,7 @@ This repo is a drum practice archive. Each practice video gets a summary page, a
    - date practiced
    - tempo
    - time signature
-   - pattern grid
+   - embedded notation SVG
    - difficulty
    - embedded audio player
    - WAV and MIDI links
@@ -55,13 +56,10 @@ For this first exercise family:
 - Snare: beats 2 and 4
 - Kick: varies by exercise
 
-Use this count grid:
+Use generated SVG drum notation instead of text count grids. Embed notation in exercise pages like this:
 
-```text
-Count: 1 & 2 & 3 & 4 &
-HH:    x x x x x x x x
-S:         o       o
-K:
+```md
+![Drum notation for Exercise Title](../../notation/kick-variations/example.svg)
 ```
 
 Kick step mapping for `tools/generate_drum_sample.py`:
@@ -97,6 +95,30 @@ After generating a WAV, play it immediately so the user can verify it:
 afplay audio/kick-variations/example.wav
 ```
 
+## Notation Generation
+
+Use the local generator:
+
+```bash
+python3 tools/generate_notation_svg.py "Exercise Title" 8 "hh=0,1,2,3,4,5,6,7;s=2,6;k=0,4" notation/kick-variations/example.svg
+```
+
+Arguments:
+
+1. Title
+2. Subdivision: `8` for eighth-note patterns or `16` for sixteenth-note patterns
+3. Pattern spec, with bars separated by `|` and instrument steps separated by `;`
+4. SVG output path
+
+Supported pattern keys:
+
+- `hh`: closed hi-hat
+- `c`: crash cymbal
+- `oh`: open hi-hat
+- `ohs`: sizzle open hi-hat
+- `s`: snare
+- `k`: kick
+
 ## Markdown Audio
 
 Use an embedded HTML audio control in exercise pages:
@@ -121,4 +143,3 @@ Also include direct links:
 - Source: `https://www.youtube.com/watch?v=nt7re7wGzqc`
 - Date practiced: `2026-06-18`
 - Shared pattern: straight eighth-note hi-hat, snare on 2 and 4, kick variations
-
