@@ -53,6 +53,7 @@ def load_samples():
         "snare": SAMPLE_DIR / "Snare-Med.wav",
         "hh": SAMPLE_DIR / "HatClosed-Med.wav",
         "oh": SAMPLE_DIR / "HatOpen-Med.wav",
+        "ride": SAMPLE_DIR / "Ride-Med.wav",
     }
     for name, path in sample_paths.items():
         if path.exists():
@@ -135,6 +136,36 @@ def synth_open_hihat(buffer, start, style="tight"):
         add_sample(buffer, start + i, (noise * noise_level + shimmer) * env)
 
 
+def synth_crash(buffer, start):
+    length = int(1.1 * SAMPLE_RATE)
+    for i in range(length):
+        t = i / SAMPLE_RATE
+        env = math.exp(-t * 3.8)
+        noise = random.uniform(-1.0, 1.0)
+        shimmer = (
+            math.sin(2.0 * math.pi * 4300.0 * t) * 0.18
+            + math.sin(2.0 * math.pi * 7100.0 * t) * 0.12
+        )
+        add_sample(buffer, start + i, (noise * 0.34 + shimmer) * env)
+
+
+def synth_ride(buffer, start):
+    if mix_sample(buffer, start, "ride", 0.82):
+        return
+
+    length = int(0.42 * SAMPLE_RATE)
+    for i in range(length):
+        t = i / SAMPLE_RATE
+        env = math.exp(-t * 8.5)
+        wash = random.uniform(-1.0, 1.0) * 0.22
+        shimmer = (
+            math.sin(2.0 * math.pi * 6200.0 * t) * 0.08
+            + math.sin(2.0 * math.pi * 9100.0 * t) * 0.05
+        )
+        tick = math.sin(2.0 * math.pi * 1800.0 * t) * 0.06
+        add_sample(buffer, start + i, (wash + shimmer + tick) * env)
+
+
 def parse_steps(value):
     if not value:
         return []
@@ -144,7 +175,7 @@ def parse_steps(value):
 def parse_pattern(pattern_spec):
     bars = []
     for bar_spec in pattern_spec.split("|"):
-        bar = {"hh": DEFAULT_HH_STEPS[:], "oh": [], "ohs": [], "s": [], "k": []}
+        bar = {"c": [], "r": [], "hh": DEFAULT_HH_STEPS[:], "oh": [], "ohs": [], "s": [], "k": []}
         for part in bar_spec.split(";"):
             if not part:
                 continue
@@ -176,6 +207,14 @@ def write_wav(path, bpm, bars):
             beat_offset = bar_offset + step * 0.25
             index = int(beat_offset * seconds_per_beat * SAMPLE_RATE)
             synth_open_hihat(buffer, index, "sizzle")
+        for step in bar["c"]:
+            beat_offset = bar_offset + step * 0.25
+            index = int(beat_offset * seconds_per_beat * SAMPLE_RATE)
+            synth_crash(buffer, index)
+        for step in bar["r"]:
+            beat_offset = bar_offset + step * 0.25
+            index = int(beat_offset * seconds_per_beat * SAMPLE_RATE)
+            synth_ride(buffer, index)
         for step in bar["s"]:
             beat_offset = bar_offset + step * 0.25
             index = int(beat_offset * seconds_per_beat * SAMPLE_RATE)
@@ -227,6 +266,10 @@ def write_midi(path, bpm, bars):
             notes.append((base + step * PPQ // 4, 46, 72, PPQ // 2))
         for step in bar["ohs"]:
             notes.append((base + step * PPQ // 4, 46, 72, PPQ // 2))
+        for step in bar["c"]:
+            notes.append((base + step * PPQ // 4, 49, 96, PPQ))
+        for step in bar["r"]:
+            notes.append((base + step * PPQ // 4, 51, 76, PPQ // 4))
         for step in bar["s"]:
             notes.append((base + step * PPQ // 4, 38, 92, PPQ // 4))
         for step in bar["k"]:

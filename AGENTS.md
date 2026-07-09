@@ -114,6 +114,7 @@ Supported pattern keys:
 
 - `hh`: closed hi-hat
 - `c`: crash cymbal
+- `r`: ride cymbal
 - `oh`: open hi-hat
 - `ohs`: sizzle open hi-hat
 - `s`: snare

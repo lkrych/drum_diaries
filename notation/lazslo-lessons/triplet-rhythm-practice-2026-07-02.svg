@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+<title>Triplet Rhythm Practice - 2026-07-02</title>
+<desc>Rhythm notation transcription of a Lazslo lesson whiteboard exercise for triplet counting and sticking practice.</desc>
+<style>
+.page{fill:#fff}.staff{stroke:#111;stroke-width:1.2}.barline,.stem,.beam,.note{stroke:#111;stroke-width:2;stroke-linecap:round}.beam{stroke-width:5}.thin-beam{stroke-width:3}.filled-note{fill:#111}.rest{font-family:Arial,Helvetica,sans-serif;font-size:34px;fill:#111}.label,.count,.stick,.note-text{font-family:Arial,Helvetica,sans-serif;fill:#111}.label{font-size:16px;font-weight:700}.count{font-size:16px;text-anchor:middle}.stick{font-size:17px;text-anchor:middle}.note-text{font-size:14px}
+</style>
+<rect width="760" height="360" class="page" />
+
+<text x="32" y="38" class="label">Triplet rhythm practice</text>
+<text x="32" y="62" class="note-text">Parentheses mark counted but unplayed positions from the whiteboard.</text>
+
+<text x="32" y="104" class="label">1. Count 1 2 3, hold/rest 4</text>
+<line x1="150" y1="126" x2="370" y2="126" class="staff" />
+<line x1="150" y1="150" x2="370" y2="150" class="staff" />
+<text x="180" y="116" class="count">1</text>
+<text x="230" y="116" class="count">2</text>
+<text x="280" y="116" class="count">3</text>
+<text x="330" y="116" class="count">(4)</text>
+<ellipse cx="180" cy="150" rx="8" ry="6" class="filled-note" transform="rotate(-20 180 150)" />
+<line x1="187" y1="150" x2="187" y2="126" class="stem" />
+<ellipse cx="230" cy="150" rx="8" ry="6" class="filled-note" transform="rotate(-20 230 150)" />
+<line x1="237" y1="150" x2="237" y2="126" class="stem" />
+<ellipse cx="280" cy="150" rx="8" ry="6" class="filled-note" transform="rotate(-20 280 150)" />
+<line x1="287" y1="150" x2="287" y2="126" class="stem" />
+<line x1="187" y1="126" x2="287" y2="126" class="beam" />
+
+<text x="32" y="204" class="label">2. Sticking: R (L) R L</text>
+<line x1="150" y1="226" x2="370" y2="226" class="staff" />
+<line x1="150" y1="250" x2="370" y2="250" class="staff" />
+<text x="180" y="216" class="stick">R</text>
+<text x="230" y="216" class="stick">(L)</text>
+<text x="280" y="216" class="stick">R</text>
+<text x="330" y="216" class="stick">L</text>
+<ellipse cx="180" cy="250" rx="8" ry="6" class="filled-note" transform="rotate(-20 180 250)" />
+<line x1="187" y1="250" x2="187" y2="226" class="stem" />
+<ellipse cx="280" cy="250" rx="8" ry="6" class="filled-note" transform="rotate(-20 280 250)" />
+<line x1="287" y1="250" x2="287" y2="226" class="stem" />
+<ellipse cx="330" cy="250" rx="8" ry="6" class="filled-note" transform="rotate(-20 330 250)" />
+<line x1="337" y1="250" x2="337" y2="226" class="stem" />
+<line x1="187" y1="226" x2="337" y2="226" class="beam" />
+
+<text x="430" y="104" class="label">3. Count 1 2 (3) 4</text>
+<line x1="500" y1="126" x2="720" y2="126" class="staff" />
+<line x1="500" y1="150" x2="720" y2="150" class="staff" />
+<text x="530" y="116" class="count">1</text>
+<text x="580" y="116" class="count">2</text>
+<text x="630" y="116" class="count">(3)</text>
+<text x="680" y="116" class="count">4</text>
+<text x="530" y="176" class="stick">R</text>
+<text x="580" y="176" class="stick">L</text>
+<text x="680" y="176" class="stick">L</text>
+<ellipse cx="530" cy="150" rx="8" ry="6" class="filled-note" transform="rotate(-20 530 150)" />
+<line x1="537" y1="150" x2="537" y2="126" class="stem" />
+<ellipse cx="580" cy="150" rx="8" ry="6" class="filled-note" transform="rotate(-20 580 150)" />
+<line x1="587" y1="150" x2="587" y2="126" class="stem" />
+<text x="630" y="160" class="rest">&#119103;</text>
+<ellipse cx="680" cy="150" rx="8" ry="6" class="filled-note" transform="rotate(-20 680 150)" />
+<line x1="687" y1="150" x2="687" y2="126" class="stem" />
+<line x1="537" y1="126" x2="587" y2="126" class="beam" />
+
+<text x="430" y="240" class="label">4. Triplet grouping</text>
+<line x1="500" y1="262" x2="720" y2="262" class="staff" />
+<line x1="500" y1="286" x2="720" y2="286" class="staff" />
+<text x="605" y="238" class="count">3</text>
+<path d="M530 246 L530 238 L680 238 L680 246" fill="none" stroke="#111" stroke-width="2" />
+<ellipse cx="530" cy="286" rx="8" ry="6" class="filled-note" transform="rotate(-20 530 286)" />
+<line x1="537" y1="286" x2="537" y2="262" class="stem" />
+<ellipse cx="605" cy="286" rx="8" ry="6" class="filled-note" transform="rotate(-20 605 286)" />
+<line x1="612" y1="286" x2="612" y2="262" class="stem" />
+<ellipse cx="680" cy="286" rx="8" ry="6" class="filled-note" transform="rotate(-20 680 286)" />
+<line x1="687" y1="286" x2="687" y2="262" class="stem" />
+<line x1="537" y1="262" x2="687" y2="262" class="beam" />
+</svg>

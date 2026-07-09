@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="380" viewBox="0 0 920 380" role="img" aria-labelledby="title desc">
+<title>Old Town Road Groove Variations - 2026-07-06</title>
+<desc>Whiteboard transcription of Old Town Road groove variations from a Lazslo lesson.</desc>
+<style>
+.page{fill:#fff}.staff,.bar,.stem,.beam,.xnote{stroke:#111;stroke-width:2;stroke-linecap:round}.beam{stroke-width:5}.note{fill:#111}.label,.count,.note-text{font-family:Arial,Helvetica,sans-serif;fill:#111}.label{font-size:18px;font-weight:700}.count{font-size:15px;text-anchor:middle}.note-text{font-size:14px}
+</style>
+<rect width="920" height="380" class="page" />
+<text x="32" y="38" class="label">Old Town Road groove variations</text>
+<text x="32" y="62" class="note-text">Four 16th-note hat groupings with moving kick placements, plus A/B ending variations.</text>
+
+<text x="32" y="104" class="label">Practice cells</text>
+<line x1="100" y1="126" x2="840" y2="126" class="staff" />
+<line x1="100" y1="150" x2="840" y2="150" class="staff" />
+
+<g>
+<text x="160" y="114" class="count">1 e &amp; a</text>
+<line x1="130" y1="105" x2="148" y2="123" class="xnote" /><line x1="130" y1="123" x2="148" y2="105" class="xnote" />
+<line x1="170" y1="105" x2="188" y2="123" class="xnote" /><line x1="170" y1="123" x2="188" y2="105" class="xnote" />
+<line x1="210" y1="105" x2="228" y2="123" class="xnote" /><line x1="210" y1="123" x2="228" y2="105" class="xnote" />
+<line x1="250" y1="105" x2="268" y2="123" class="xnote" /><line x1="250" y1="123" x2="268" y2="105" class="xnote" />
+<line x1="139" y1="114" x2="139" y2="215" class="stem" />
+<ellipse cx="139" cy="228" rx="8" ry="6" class="note" transform="rotate(-20 139 228)" />
+<line x1="139" y1="96" x2="259" y2="96" class="beam" />
+</g>
+
+<g>
+<line x1="310" y1="105" x2="328" y2="123" class="xnote" /><line x1="310" y1="123" x2="328" y2="105" class="xnote" />
+<line x1="350" y1="105" x2="368" y2="123" class="xnote" /><line x1="350" y1="123" x2="368" y2="105" class="xnote" />
+<line x1="390" y1="105" x2="408" y2="123" class="xnote" /><line x1="390" y1="123" x2="408" y2="105" class="xnote" />
+<line x1="430" y1="105" x2="448" y2="123" class="xnote" /><line x1="430" y1="123" x2="448" y2="105" class="xnote" />
+<line x1="319" y1="96" x2="439" y2="96" class="beam" />
+<line x1="319" y1="114" x2="319" y2="205" class="stem" /><ellipse cx="319" cy="218" rx="8" ry="6" class="note" transform="rotate(-20 319 218)" />
+<line x1="439" y1="114" x2="439" y2="245" class="stem" /><ellipse cx="439" cy="258" rx="8" ry="6" class="note" transform="rotate(-20 439 258)" />
+</g>
+
+<g>
+<line x1="510" y1="105" x2="528" y2="123" class="xnote" /><line x1="510" y1="123" x2="528" y2="105" class="xnote" />
+<line x1="550" y1="105" x2="568" y2="123" class="xnote" /><line x1="550" y1="123" x2="568" y2="105" class="xnote" />
+<line x1="590" y1="105" x2="608" y2="123" class="xnote" /><line x1="590" y1="123" x2="608" y2="105" class="xnote" />
+<line x1="630" y1="105" x2="648" y2="123" class="xnote" /><line x1="630" y1="123" x2="648" y2="105" class="xnote" />
+<line x1="519" y1="96" x2="639" y2="96" class="beam" />
+<line x1="639" y1="114" x2="639" y2="245" class="stem" /><ellipse cx="639" cy="258" rx="8" ry="6" class="note" transform="rotate(-20 639 258)" />
+</g>
+
+<g>
+<text x="762" y="74" class="label">A</text>
+<circle cx="762" cy="66" r="26" fill="none" stroke="#111" stroke-width="2" />
+<line x1="700" y1="105" x2="718" y2="123" class="xnote" /><line x1="700" y1="123" x2="718" y2="105" class="xnote" />
+<line x1="740" y1="105" x2="758" y2="123" class="xnote" /><line x1="740" y1="123" x2="758" y2="105" class="xnote" />
+<line x1="780" y1="105" x2="798" y2="123" class="xnote" /><line x1="780" y1="123" x2="798" y2="105" class="xnote" />
+<line x1="820" y1="105" x2="838" y2="123" class="xnote" /><line x1="820" y1="123" x2="838" y2="105" class="xnote" />
+<line x1="709" y1="96" x2="829" y2="96" class="beam" />
+<line x1="709" y1="114" x2="709" y2="205" class="stem" /><ellipse cx="709" cy="218" rx="8" ry="6" class="note" transform="rotate(-20 709 218)" />
+<line x1="749" y1="114" x2="749" y2="245" class="stem" /><ellipse cx="749" cy="258" rx="8" ry="6" class="note" transform="rotate(-20 749 258)" />
+<line x1="789" y1="114" x2="789" y2="245" class="stem" /><ellipse cx="789" cy="258" rx="8" ry="6" class="note" transform="rotate(-20 789 258)" />
+</g>
+
+<text x="650" y="282" class="label">B</text>
+<path d="M652 236 L652 220 L792 220 L792 236" fill="none" stroke="#111" stroke-width="2" />
+<line x1="690" y1="250" x2="708" y2="268" class="xnote" /><line x1="690" y1="268" x2="708" y2="250" class="xnote" />
+<line x1="730" y1="250" x2="748" y2="268" class="xnote" /><line x1="730" y1="268" x2="748" y2="250" class="xnote" />
+<line x1="770" y1="250" x2="788" y2="268" class="xnote" /><line x1="770" y1="268" x2="788" y2="250" class="xnote" />
+<line x1="810" y1="250" x2="828" y2="268" class="xnote" /><line x1="810" y1="268" x2="828" y2="250" class="xnote" />
+<line x1="699" y1="240" x2="819" y2="240" class="beam" />
+<line x1="699" y1="259" x2="699" y2="330" class="stem" /><ellipse cx="699" cy="342" rx="8" ry="6" class="note" transform="rotate(-20 699 342)" />
+<line x1="819" y1="259" x2="819" y2="330" class="stem" /><ellipse cx="819" cy="342" rx="8" ry="6" class="note" transform="rotate(-20 819 342)" />
+</svg>

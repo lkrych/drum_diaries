@@ -6,6 +6,9 @@ A simple practice archive for drum exercises, grooves, and notes.
 
 | Practice Set | Producer | Date Practiced | Difficulty |
 | --- | --- | --- | --- |
+| [Lazslo Lesson - 2026-07-06](videos/lazslo-lesson-2026-07-06.md) | Lazslo | 2026-07-06 | TBD |
+| [Lazslo Lesson - 2026-07-03](videos/lazslo-lesson-2026-07-03.md) | Lazslo | 2026-07-03 | TBD |
+| [Lazslo Lesson - 2026-07-02](videos/lazslo-lesson-2026-07-02.md) | Lazslo | 2026-07-02 | TBD |
 | [Song Groove Practice](videos/song-groove-practice-2026-06-23.md) | Practice room whiteboard | 2026-06-23 | Medium |
 | [10 Beginner Beats To Get You Playing Quickly!](videos/10-beginner-beats-rob-brown.md) | Rob Brown | 2026-06-18 | Easy |
 
@@ -22,6 +25,7 @@ GitHub's repository Markdown view may not show embedded audio controls. Use each
 Exercise pages use SVG drum notation instead of text count grids. Generate notation with `tools/generate_notation_svg.py`, then embed the SVG in the exercise page.
 
 - `C`: crash, shown with an x notehead above the hi-hat
+- `Ride`: ride cymbal, shown with a diamond notehead
 - `HH`: hi-hat, shown with an x notehead above the staff
 - `OH`: open hi-hat, shown with a circled x notehead
 - `S`: snare

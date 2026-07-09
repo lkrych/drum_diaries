@@ -14,6 +14,7 @@ BAR_GAP = 16
 
 Y_POSITIONS = {
     "c": STAFF_TOP - 32,
+    "r": STAFF_TOP - 24,
     "hh": STAFF_TOP - 16,
     "oh": STAFF_TOP - 16,
     "ohs": STAFF_TOP - 16,
@@ -30,7 +31,7 @@ def parse_steps(value):
 def parse_pattern(pattern_spec):
     bars = []
     for bar_spec in pattern_spec.split("|"):
-        bar = {"c": [], "hh": [], "oh": [], "ohs": [], "s": [], "k": []}
+        bar = {"c": [], "r": [], "hh": [], "oh": [], "ohs": [], "s": [], "k": []}
         for part in bar_spec.split(";"):
             if not part:
                 continue
@@ -92,6 +93,7 @@ def draw_percussion_clef(svg):
     svg.append(f'<line x1="{x}" y1="{y1}" x2="{x}" y2="{y2}" class="clef" />')
     svg.append(f'<line x1="{x + 8}" y1="{y1}" x2="{x + 8}" y2="{y2}" class="clef" />')
     svg.append(f'<text x="22" y="{Y_POSITIONS["c"] + 4}" class="voice-label">Crash</text>')
+    svg.append(f'<text x="22" y="{Y_POSITIONS["r"] + 4}" class="voice-label">Ride</text>')
     svg.append(f'<text x="22" y="{Y_POSITIONS["hh"] + 4}" class="voice-label">Hi-hat</text>')
     svg.append(f'<text x="22" y="{Y_POSITIONS["s"] + 4}" class="voice-label">Snare</text>')
     svg.append(f'<text x="22" y="{Y_POSITIONS["k"] + 4}" class="voice-label">Kick</text>')
@@ -109,9 +111,15 @@ def draw_filled_note(svg, x, y):
     svg.append(f'<ellipse cx="{x}" cy="{y}" rx="8" ry="6" class="filled-note" transform="rotate(-20 {x} {y})" />')
 
 
+def draw_diamond_note(svg, x, y):
+    svg.append(f'<path d="M{x} {y - 9} L{x + 9} {y} L{x} {y + 9} L{x - 9} {y} Z" class="filled-note" />')
+
+
 def draw_note(svg, x, key):
     y = Y_POSITIONS[key]
-    if key in ("c", "hh", "oh", "ohs"):
+    if key == "r":
+        draw_diamond_note(svg, x, y)
+    elif key in ("c", "hh", "oh", "ohs"):
         draw_x_note(svg, x, y, key in ("oh", "ohs"))
         if key == "ohs":
             svg.append(f'<text x="{x + 18}" y="{y - 10}" class="mark">sizzle</text>')
@@ -142,7 +150,7 @@ def render(title, subdivision, pattern_spec):
         draw_staff(svg, bar_index, subdivision)
 
     for bar_index, bar in enumerate(bars):
-        for key in ("c", "hh", "oh", "ohs", "s", "k"):
+        for key in ("c", "r", "hh", "oh", "ohs", "s", "k"):
             for step in bar[key]:
                 draw_note(svg, step_x(bar_index, step, subdivision), key)
 
