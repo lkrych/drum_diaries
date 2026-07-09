@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="title desc">
+<title>2/4 Sticking Grid - 2026-07-03</title>
+<desc>Whiteboard transcription of a two-four sticking exercise with right and left hand variations.</desc>
+<style>
+.page{fill:#fff}.staff,.bar,.stem,.beam{stroke:#111;stroke-width:2;stroke-linecap:round}.beam{stroke-width:5}.note{fill:#111}.label,.stick,.note-text{font-family:Arial,Helvetica,sans-serif;fill:#111}.label{font-size:18px;font-weight:700}.stick{font-size:24px;text-anchor:middle}.note-text{font-size:14px}.time{font-size:30px;text-anchor:middle}
+</style>
+<rect width="760" height="320" class="page" />
+<text x="32" y="38" class="label">2/4 sticking pattern</text>
+<text x="32" y="62" class="note-text">Transcribed from the July 3 whiteboard. Repeat the bar and reverse the lead hand.</text>
+
+<text x="64" y="128" class="time">2</text>
+<line x1="48" y1="140" x2="80" y2="140" class="bar" />
+<text x="64" y="176" class="time">4</text>
+
+<line x1="140" y1="118" x2="520" y2="118" class="staff" />
+<line x1="140" y1="142" x2="520" y2="142" class="staff" />
+<line x1="520" y1="104" x2="520" y2="156" class="bar" />
+<line x1="535" y1="104" x2="535" y2="156" class="bar" />
+<text x="180" y="102" class="stick">R</text>
+<text x="270" y="102" class="stick">R</text>
+<text x="320" y="102" class="stick">L</text>
+<text x="370" y="102" class="stick">R</text>
+<text x="470" y="102" class="stick">L</text>
+<ellipse cx="180" cy="142" rx="8" ry="6" class="note" transform="rotate(-20 180 142)" />
+<line x1="187" y1="142" x2="187" y2="118" class="stem" />
+<ellipse cx="270" cy="142" rx="8" ry="6" class="note" transform="rotate(-20 270 142)" />
+<line x1="277" y1="142" x2="277" y2="118" class="stem" />
+<ellipse cx="320" cy="142" rx="8" ry="6" class="note" transform="rotate(-20 320 142)" />
+<line x1="327" y1="142" x2="327" y2="118" class="stem" />
+<ellipse cx="370" cy="142" rx="8" ry="6" class="note" transform="rotate(-20 370 142)" />
+<line x1="377" y1="142" x2="377" y2="118" class="stem" />
+<ellipse cx="470" cy="142" rx="8" ry="6" class="note" transform="rotate(-20 470 142)" />
+<line x1="477" y1="142" x2="477" y2="118" class="stem" />
+<line x1="187" y1="118" x2="477" y2="118" class="beam" />
+
+<text x="140" y="230" class="label">Lead-hand inversions</text>
+<text x="230" y="268" class="stick">R</text>
+<text x="330" y="268" class="stick">L R</text>
+<text x="470" y="268" class="stick">L R</text>
+<text x="230" y="304" class="stick">L</text>
+<text x="330" y="304" class="stick">R L</text>
+<text x="470" y="304" class="stick">R L</text>
+</svg>

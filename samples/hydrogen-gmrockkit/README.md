@@ -12,6 +12,7 @@ Files used:
 - `Snare-Med.wav`
 - `HatClosed-Med.wav`
 - `HatOpen-Med.wav`
+- `Ride-Med.wav`
 
 License:
 
