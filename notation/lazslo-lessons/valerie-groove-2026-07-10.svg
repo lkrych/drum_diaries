@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="704" height="168" viewBox="0 0 704 168" role="img" aria-labelledby="title desc">
+<title>Valerie Groove - 2026-07-10</title>
+<desc>Drum set staff notation showing hi-hat, snare, and kick placements.</desc>
+<style>
+.page{fill:#fff}.staff{stroke:#111;stroke-width:1.2}.barline{stroke:#111;stroke-width:1.8}.beat{stroke:#b9bec7;stroke-width:1;stroke-dasharray:3 5}.clef,.stem,.note{stroke:#111;stroke-width:2;stroke-linecap:round}.filled-note{fill:#111}.open{fill:none;stroke:#111;stroke-width:1.6}.count,.voice-label,.mark{font-family:Arial,Helvetica,sans-serif;fill:#111}.count{font-size:13px;text-anchor:middle}.voice-label{font-size:11px;text-anchor:start}.mark{font-size:10px}
+</style>
+<rect width="704" height="168" class="page" />
+<line x1="72" y1="68" x2="72" y2="108" class="clef" />
+<line x1="80" y1="68" x2="80" y2="108" class="clef" />
+<text x="22" y="36" class="voice-label">Crash</text>
+<text x="22" y="44" class="voice-label">Ride</text>
+<text x="22" y="52" class="voice-label">Hi-hat</text>
+<text x="22" y="92" class="voice-label">Snare</text>
+<text x="22" y="116" class="voice-label">Kick</text>
+<line x1="116" y1="64" x2="676" y2="64" class="staff" />
+<line x1="116" y1="76" x2="676" y2="76" class="staff" />
+<line x1="116" y1="88" x2="676" y2="88" class="staff" />
+<line x1="116" y1="100" x2="676" y2="100" class="staff" />
+<line x1="116" y1="112" x2="676" y2="112" class="staff" />
+<line x1="116" y1="64" x2="116" y2="112" class="barline" />
+<line x1="676" y1="64" x2="676" y2="112" class="barline" />
+<line x1="134.0" y1="40" x2="134.0" y2="142" class="beat" />
+<line x1="274.26666666666665" y1="40" x2="274.26666666666665" y2="142" class="beat" />
+<line x1="414.53333333333336" y1="40" x2="414.53333333333336" y2="142" class="beat" />
+<line x1="554.8" y1="40" x2="554.8" y2="142" class="beat" />
+<text x="134.0" y="154" class="count">1</text>
+<text x="169.06666666666666" y="154" class="count">e</text>
+<text x="204.13333333333333" y="154" class="count">&amp;</text>
+<text x="239.2" y="154" class="count">a</text>
+<text x="274.26666666666665" y="154" class="count">2</text>
+<text x="309.33333333333337" y="154" class="count">e</text>
+<text x="344.4" y="154" class="count">&amp;</text>
+<text x="379.4666666666667" y="154" class="count">a</text>
+<text x="414.53333333333336" y="154" class="count">3</text>
+<text x="449.6" y="154" class="count">e</text>
+<text x="484.6666666666667" y="154" class="count">&amp;</text>
+<text x="519.7333333333333" y="154" class="count">a</text>
+<text x="554.8" y="154" class="count">4</text>
+<text x="589.8666666666667" y="154" class="count">e</text>
+<text x="624.9333333333334" y="154" class="count">&amp;</text>
+<text x="660.0" y="154" class="count">a</text>
+<line x1="127.0" y1="41" x2="141.0" y2="55" class="note" />
+<line x1="127.0" y1="55" x2="141.0" y2="41" class="note" />
+<line x1="197.13333333333333" y1="41" x2="211.13333333333333" y2="55" class="note" />
+<line x1="197.13333333333333" y1="55" x2="211.13333333333333" y2="41" class="note" />
+<line x1="267.26666666666665" y1="41" x2="281.26666666666665" y2="55" class="note" />
+<line x1="267.26666666666665" y1="55" x2="281.26666666666665" y2="41" class="note" />
+<line x1="337.4" y1="41" x2="351.4" y2="55" class="note" />
+<line x1="337.4" y1="55" x2="351.4" y2="41" class="note" />
+<line x1="407.53333333333336" y1="41" x2="421.53333333333336" y2="55" class="note" />
+<line x1="407.53333333333336" y1="55" x2="421.53333333333336" y2="41" class="note" />
+<line x1="477.6666666666667" y1="41" x2="491.6666666666667" y2="55" class="note" />
+<line x1="477.6666666666667" y1="55" x2="491.6666666666667" y2="41" class="note" />
+<line x1="547.8" y1="41" x2="561.8" y2="55" class="note" />
+<line x1="547.8" y1="55" x2="561.8" y2="41" class="note" />
+<line x1="617.9333333333334" y1="41" x2="631.9333333333334" y2="55" class="note" />
+<line x1="617.9333333333334" y1="55" x2="631.9333333333334" y2="41" class="note" />
+<ellipse cx="274.26666666666665" cy="88" rx="8" ry="6" class="filled-note" transform="rotate(-20 274.26666666666665 88)" />
+<line x1="281.26666666666665" y1="88" x2="281.26666666666665" y2="62" class="stem" />
+<ellipse cx="554.8" cy="88" rx="8" ry="6" class="filled-note" transform="rotate(-20 554.8 88)" />
+<line x1="561.8" y1="88" x2="561.8" y2="62" class="stem" />
+<ellipse cx="134.0" cy="112" rx="8" ry="6" class="filled-note" transform="rotate(-20 134.0 112)" />
+<line x1="127.0" y1="112" x2="127.0" y2="136" class="stem" />
+<ellipse cx="379.4666666666667" cy="112" rx="8" ry="6" class="filled-note" transform="rotate(-20 379.4666666666667 112)" />
+<line x1="372.4666666666667" y1="112" x2="372.4666666666667" y2="136" class="stem" />
+<ellipse cx="414.53333333333336" cy="112" rx="8" ry="6" class="filled-note" transform="rotate(-20 414.53333333333336 112)" />
+<line x1="407.53333333333336" y1="112" x2="407.53333333333336" y2="136" class="stem" />
+</svg>

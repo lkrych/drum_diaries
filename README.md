@@ -6,9 +6,10 @@ A simple practice archive for drum exercises, grooves, and notes.
 
 | Practice Set | Producer | Date Practiced | Difficulty |
 | --- | --- | --- | --- |
-| [Lazslo Lesson - 2026-07-06](videos/lazslo-lesson-2026-07-06.md) | Lazslo | 2026-07-06 | TBD |
-| [Lazslo Lesson - 2026-07-03](videos/lazslo-lesson-2026-07-03.md) | Lazslo | 2026-07-03 | TBD |
-| [Lazslo Lesson - 2026-07-02](videos/lazslo-lesson-2026-07-02.md) | Lazslo | 2026-07-02 | TBD |
+| [Ticket to Ride, Sugar, Valerie, Old Town Road, and 16th Notes](videos/lazslo-lesson-2026-07-10.md) | Lazslo | 2026-07-10 | TBD |
+| [Old Town Road Groove Variations](videos/lazslo-lesson-2026-07-06.md) | Lazslo | 2026-07-06 | TBD |
+| [Come As You Are, Coordination, and 2/4 Sticking](videos/lazslo-lesson-2026-07-03.md) | Lazslo | 2026-07-03 | TBD |
+| [Uptown Funk Grooves and Triplet Practice](videos/lazslo-lesson-2026-07-02.md) | Lazslo | 2026-07-02 | TBD |
 | [Song Groove Practice](videos/song-groove-practice-2026-06-23.md) | Practice room whiteboard | 2026-06-23 | Medium |
 | [10 Beginner Beats To Get You Playing Quickly!](videos/10-beginner-beats-rob-brown.md) | Rob Brown | 2026-06-18 | Easy |
 
