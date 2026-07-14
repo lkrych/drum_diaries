@@ -6,6 +6,7 @@ A simple practice archive for drum exercises, grooves, and notes.
 
 | Practice Set | Producer | Date Practiced | Difficulty |
 | --- | --- | --- | --- |
+| [Please, Please, Please, 2 and 4 Beats, Three-Bar Fills, and Natalie](videos/lazslo-lesson-2026-07-13.md) | Lazslo | 2026-07-13 | TBD |
 | [Ticket to Ride, Sugar, Valerie, Old Town Road, and 16th Notes](videos/lazslo-lesson-2026-07-10.md) | Lazslo | 2026-07-10 | TBD |
 | [Old Town Road Groove Variations](videos/lazslo-lesson-2026-07-06.md) | Lazslo | 2026-07-06 | TBD |
 | [Come As You Are, Coordination, and 2/4 Sticking](videos/lazslo-lesson-2026-07-03.md) | Lazslo | 2026-07-03 | TBD |
